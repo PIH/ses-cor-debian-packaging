@@ -2,7 +2,7 @@
 cd cor-debian-base
 
 ARTIFACTS=/opt/bamboo5.9/artifacts
-INTEGRATION_SHARED_DIR=${ARTIFACTS}/COR-INSTALL/shared
+INTEGRATION_SHARED_DIR=${ARTIFACTS}/plan-569835545/shared
 LATEST_BUILD_DIR=`ls -t ${INTEGRATION_SHARED_DIR}/|head -1`
 
 DISTRO_DIR=home/tomcat7/.OpenMRS/distribution
