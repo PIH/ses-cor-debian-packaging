@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-cd cor-debian-base
+cd ses-cor-debian-base
 
 ARTIFACTS=/opt/bamboo5.9/artifacts
 INTEGRATION_SHARED_DIR=${ARTIFACTS}/plan-569835545/shared
