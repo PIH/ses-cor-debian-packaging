@@ -1,7 +1,7 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 cd ses-cor-debian-base
 
-set -Eeuo pipefail
+set -Eeu
 
 ARTIFACTS=/opt/bamboo5.9/artifacts
 INTEGRATION_SHARED_DIR=${ARTIFACTS}/plan-569835545/shared
