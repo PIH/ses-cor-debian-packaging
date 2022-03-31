@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 cd ses-cor-debian-base
 
 set -Eeuo pipefail
