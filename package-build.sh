@@ -15,10 +15,10 @@ rm -fR ${DISTRO_DIR} && mkdir ${DISTRO_DIR}
 rm -fR ${MODULE_DIR} && mkdir ${MODULE_DIR}
 rm -fR ${OWA_DIR} && mkdir ${OWA_DIR}
 
-unzip ${INTEGRATION_SHARED_DIR}/${LATEST_BUILD_DIR}/distribution-zip/cor*.zip -d  ${DISTRO_DIR}/
-mv ${DISTRO_DIR}/cor-*/openmrs_webapps/openmrs.war ./openmrs.war
-mv ${DISTRO_DIR}/cor-*/openmrs_modules/* ${MODULE_DIR}/
-mv ${DISTRO_DIR}/cor-*/openmrs_owas/* ${OWA_DIR}/
+unzip ${INTEGRATION_SHARED_DIR}/${LATEST_BUILD_DIR}/distribution-zip/sescor*.zip -d  ${DISTRO_DIR}/
+mv ${DISTRO_DIR}/sescor-*/openmrs_webapps/openmrs.war ./openmrs.war
+mv ${DISTRO_DIR}/sescor-*/openmrs_modules/* ${MODULE_DIR}/
+mv ${DISTRO_DIR}/sescor-*/openmrs_owas/* ${OWA_DIR}/
 rename 's/\.owa$/.zip/' ${OWA_DIR}/*.owa
 
 rm -fR ${DISTRO_DIR}
