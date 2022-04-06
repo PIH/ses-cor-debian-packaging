@@ -1,4 +1,4 @@
-Source: ses-cor
+Source: sescor
 Section: unknown
 Priority: extra
 Maintainer: PIH <medinfo@pih.org>
@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.2
 Homepage: http://github.com/PIH
 
-Package: ses-cor
+Package: sescor
 Architecture: all
 Depends: ${misc:Depends}
 Description: Implementation of OpenMRS for Partners In Health Peru
