@@ -28,5 +28,3 @@ ls -Ra
 pwd
 
 debuild --no-tgz-check -i -us -uc -b
-
-sleep 600
