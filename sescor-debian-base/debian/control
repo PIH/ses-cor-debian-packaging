@@ -1,15 +1,6 @@
-Source: sescor
-Section: unknown
-Priority: extra
-Maintainer: PIH <medinfo@pih.org>
-Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.2
-Homepage: http://github.com/PIH
-
 Package: sescor
 Architecture: all
 Depends: ${misc:Depends}
 Description: Implementation of OpenMRS for Partners In Health Peru
  This package install the OpenMRS war file and the necessary
- modules that compose the standard PIH implementation. It also
- install configurations files necessary to run the server.
+ modules that compose PIH Peru's COR implementation.
