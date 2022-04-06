@@ -2,6 +2,7 @@
 cd ses-cor-debian-base
 
 set -Eeu
+set +x
 
 ARTIFACTS=/opt/bamboo5.9/artifacts
 INTEGRATION_SHARED_DIR=${ARTIFACTS}/plan-569835545/shared
@@ -22,5 +23,7 @@ mv ${DISTRO_DIR}/sescor-*/openmrs_owas/* ${OWA_DIR}/
 rename 's/\.owa$/.zip/' ${OWA_DIR}/*.owa
 
 rm -fR ${DISTRO_DIR}
+
+ls -R
 
 debuild --no-tgz-check -i -us -uc -b
