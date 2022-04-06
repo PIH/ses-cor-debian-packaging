@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-cd sescor-debian-base
+cd ses-cor-debian-base
 
 set -Eeu
 set -x
@@ -16,10 +16,10 @@ rm -fR ${DISTRO_DIR} && mkdir ${DISTRO_DIR}
 rm -fR ${MODULE_DIR} && mkdir ${MODULE_DIR}
 rm -fR ${OWA_DIR} && mkdir ${OWA_DIR}
 
-unzip ${INTEGRATION_SHARED_DIR}/${LATEST_BUILD_DIR}/distribution-zip/sescor*.zip -d  ${DISTRO_DIR}/
-mv ${DISTRO_DIR}/sescor-*/openmrs_webapps/openmrs.war ./openmrs.war
-mv ${DISTRO_DIR}/sescor-*/openmrs_modules/* ${MODULE_DIR}/
-mv ${DISTRO_DIR}/sescor-*/openmrs_owas/* ${OWA_DIR}/
+unzip ${INTEGRATION_SHARED_DIR}/${LATEST_BUILD_DIR}/distribution-zip/ses-cor*.zip -d  ${DISTRO_DIR}/
+mv ${DISTRO_DIR}/ses-cor-*/openmrs_webapps/openmrs.war ./openmrs.war
+mv ${DISTRO_DIR}/ses-cor-*/openmrs_modules/* ${MODULE_DIR}/
+mv ${DISTRO_DIR}/ses-cor-*/openmrs_owas/* ${OWA_DIR}/
 rename 's/\.owa$/.zip/' ${OWA_DIR}/*.owa
 
 rm -fR ${DISTRO_DIR}
