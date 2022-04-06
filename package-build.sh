@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-cd ses-cor-debian-base
+cd sescor-debian-base
 
 set -Eeu
 set -x
