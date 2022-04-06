@@ -25,5 +25,6 @@ rename 's/\.owa$/.zip/' ${OWA_DIR}/*.owa
 rm -fR ${DISTRO_DIR}
 
 ls -Ra
+pwd
 
 debuild --no-tgz-check -i -us -uc -b
