@@ -11,5 +11,4 @@ Architecture: all
 Depends: ${misc:Depends}
 Description: Implementation of OpenMRS for Partners In Health Peru
  This package install the OpenMRS war file and the necessary
- modules that compose the standard PIH implementation. It also
- install configurations files necessary to run the server.
+ modules that compose PIH Peru's COR implementation.
