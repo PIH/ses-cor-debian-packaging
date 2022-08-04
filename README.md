@@ -1,0 +1,1 @@
+Project moved.  Please see https://github.com/PIH/openmrs-distro-sescor for debian builds of ses-cor package.
